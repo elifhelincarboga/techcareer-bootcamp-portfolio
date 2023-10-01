@@ -1,0 +1,85 @@
+section.resume {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+    h1 {
+        line-height: 1;
+        color: #343a40;
+        text-transform: uppercase;
+        font-family: $font-family-heading;
+        font-size: calc(1.725rem + 5.7vw);
+        font-weight: 700;
+        margin-top: 0;
+    }
+    .subheading {
+        text-transform: uppercase;
+        font-family: $font-family-heading;
+        font-size: 1.5rem;
+        font-weight: 500;
+        a {
+            color: $primary-color;
+            text-decoration: underline;
+        }
+    }
+    p.description {
+        font-size: 1.15rem;
+        font-weight: 400;
+    }
+    .social-icons {
+        .social-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 3.5rem;
+            width: 3.5rem;
+            background-color: #495057;
+            color: $white;
+            border-radius: 100%;
+            font-size: 1.5rem;
+            margin-right: 1.5rem;
+            &:last-child {
+                margin-right: 0;
+            }
+            &:hover {
+                background-color: $primary-color;
+            }
+            svg {
+                height: 1em;
+            }
+        }
+    }
+}
+
+hr {
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: 0.25;
+}
+
+@media (min-width: 1200px) {
+    section.resume {
+        h1 {
+            font-size: 6rem;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    section.resume {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    section.resume {
+        min-height: 100vh;
+    }
+}

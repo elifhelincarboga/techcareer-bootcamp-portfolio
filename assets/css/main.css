@@ -12,6 +12,10 @@ body {
   font-size: 1rem;
   font-weight: 400;
 }
+body p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
 
 .d-none {
   display: none;
@@ -38,6 +42,22 @@ body {
   height: auto;
 }
 
+.primary-color {
+  color: #bd5d38;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-5 {
+  margin-bottom: 3rem;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -51,7 +71,7 @@ body {
   }
 }
 body {
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
 
 .navbar {
@@ -140,5 +160,84 @@ body {
   .navbar-brand {
     padding: 0.5rem !important;
     margin-left: 16px;
+  }
+}
+section.resume {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+section.resume h1 {
+  line-height: 1;
+  color: #343a40;
+  text-transform: uppercase;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: calc(1.725rem + 5.7vw);
+  font-weight: 700;
+  margin-top: 0;
+}
+section.resume .subheading {
+  text-transform: uppercase;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+section.resume .subheading a {
+  color: #bd5d38;
+  text-decoration: underline;
+}
+section.resume p.description {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+section.resume .social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+section.resume .social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+section.resume .social-icons .social-icon:hover {
+  background-color: #bd5d38;
+}
+section.resume .social-icons .social-icon svg {
+  height: 1em;
+}
+
+hr {
+  color: inherit;
+  border: 0;
+  border-top: 1px solid;
+  opacity: 0.25;
+}
+
+@media (min-width: 1200px) {
+  section.resume h1 {
+    font-size: 6rem;
+  }
+}
+@media (min-width: 992px) {
+  section.resume {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+@media (min-width: 768px) {
+  section.resume {
+    min-height: 100vh;
   }
 }/*# sourceMappingURL=main.css.map */
