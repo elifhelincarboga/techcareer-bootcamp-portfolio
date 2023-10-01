@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+    padding-top: 3.375rem;
+    margin: 0;
+    color: $primary-font-color;
+    font-family: $font-family;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.d-none {
+    display: none;
+}
+.d-block {
+    display: block;
+}
+.d-lg-block {
+    display: none;
+}
+.rounded-circle {
+    border-radius: 50%;
+}
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 0;
+        padding-left: 17rem;
+    }
+    .d-lg-block {
+        display: block;
+    }
+    .d-lg-none {
+        display: none;
+    }
+}
