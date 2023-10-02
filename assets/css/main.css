@@ -291,6 +291,16 @@ section.resume .fa-ul li .fa-li svg {
   height: 1em;
   vertical-align: -0.125em;
 }
+section.resume .fa-ul li .fa-li svg.text-warning {
+  color: rgb(255, 193, 7);
+}
+section.resume .fa-ul li sup {
+  top: -0.5em;
+  position: relative;
+  font-size: 0.75em;
+  line-height: 0;
+  vertical-align: baseline;
+}
 
 hr {
   color: inherit;

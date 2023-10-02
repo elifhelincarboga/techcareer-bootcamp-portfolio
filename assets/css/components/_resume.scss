@@ -116,7 +116,17 @@ section.resume {
                 svg {
                     height: 1em;
                     vertical-align: -0.125em;
+                    &.text-warning{
+                        color: rgb(255, 193, 7);
+                    }
                 }
+            }
+            sup {
+                top: -0.5em;
+                position: relative;
+                font-size: 0.75em;
+                line-height: 0;
+                vertical-align: baseline;
             }
         }
     }
