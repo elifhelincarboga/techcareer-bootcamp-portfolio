@@ -252,6 +252,45 @@ section.resume h2 {
   font-weight: 700;
   margin-top: 0;
 }
+section.resume .list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+section.resume .list-inline .list-inline-item {
+  display: inline-block;
+}
+section.resume .list-inline .list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+section.resume .list-inline .list-inline-item svg {
+  height: 1em;
+  vertical-align: -0.125em;
+}
+section.resume .dev-icons {
+  font-size: 3rem;
+}
+section.resume .fa-ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-left: 2.5em;
+}
+section.resume .fa-ul li {
+  position: relative;
+}
+section.resume .fa-ul li .fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+section.resume .fa-ul li .fa-li svg {
+  height: 1em;
+  vertical-align: -0.125em;
+}
 
 hr {
   color: inherit;
